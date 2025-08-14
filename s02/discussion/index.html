@@ -17,7 +17,9 @@
 	<body>
 
 		<!-- <h1> creates a heading 1 text -->
-		<h1>Zuitt Coding Bootcamp</h1>
+		<!-- Add an id called top -->
+		<h1 id="top">Zuitt Coding Bootcamp</h1>
+		<a href="#bottom">Link to Bottom</a>
 
 
 		<!-- <h2> creates a smaller heading than <h1> -->
@@ -43,6 +45,40 @@
 			<li>CSS Selectors</li>
 			<li>CSS Rule Set</li>
 		</ol>
+
+
+		<div>
+			<h4>Relative Links</h4>
+			<a href="./attributes.html">Attribute Page</a>
+			<a href="./pages/links.html">Links Page</a>
+			<a href="./index.html">Home Page</a>
+		</div>
+
+
+		<div id="images">
+			<!-- Applying relative links using images -->
+			<br>
+			<img src="./images/picture1.png">
+			<br>
+			<img src="./images/picture2.png">
+			<br>
+			<img src="./images/picture3.png">
+			<br>
+		</div>
+
+		<br>
+
+		<div id="bottom">
+			
+			<h4>Relative Links within the Same Page</h4>
+
+			<!-- #top - refers back to the id attribute with value top -->
+			<a href="#top">Back to Top</a>
+
+		</div>
+
+
+
 
 	</body>
 </html>
